@@ -131,11 +131,11 @@
 /*
  * select serial console configuration
  */
-//#define CONFIG_SERIAL3          1	/* we use SERIAL 2 for Universal b'd*/
-#define CONFIG_SERIAL1          	1	
+#define CONFIG_SERIAL3          1	/* we use SERIAL 2 for Universal b'd*/
+//#define CONFIG_SERIAL1          	1	
 
 //#if defined(CONFIG_SERIAL3) || defined(CONFIG_SERIAL4)
-#define CONFIG_BAUDRATE		4800
+#define CONFIG_BAUDRATE		115200
 //#elif defined(CONFIG_SERIAL1) || defined(CONFIG_SERIAL2)
 //    #define CONFIG_BAUDRATE   9600
 //#endif
